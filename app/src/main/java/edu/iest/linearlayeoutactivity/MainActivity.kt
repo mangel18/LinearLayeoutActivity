@@ -68,6 +68,19 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 mensaje.mostrarToast()
                 }
 
+            R.id.bnMultiplicacion -> {
+                val multiplicacion = aritmetica.multiplicacion(numeroUno,numeroDos)
+                val mensaje = Mensajes("La multiplicacion fue $multiplicacion",this)
+                mensaje.mostrarToast()
+            }
+
+            R.id.bnDivision -> {
+                val division = aritmetica.division(numeroUno,numeroDos)
+                val mensaje = Mensajes("La división fue $division",this)
+                mensaje.mostrarToast()
+
+            }
+
         }
     }
 }
