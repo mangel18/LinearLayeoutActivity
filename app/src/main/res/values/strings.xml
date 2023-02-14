@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LinearLayeoutActivity</string>
+    <string name="dame_un_numero">Dame un numero</string>
+    <string name="dame_un_segundo_numero">Dame un segundo numero</string>
+    <string name="suma">SUMA</string>
+    <string name="resta">RESTA</string>
+</resources>
